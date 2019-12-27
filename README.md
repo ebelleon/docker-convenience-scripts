@@ -21,3 +21,7 @@ The script allows me to easily see if there are some data volumes on my disk tha
 up a lot of space and are not needed anymore.
 
 You can find more details in my blog post [Listing information for all your named/unnamed data volumes](https://www.guidodiepen.nl/2017/04/listing-information-for-all-your-named-unnamed-data-volumes/)
+
+## clean_docker_container.sh
+
+With this script I can easily stop a Container and remove all unused Images.

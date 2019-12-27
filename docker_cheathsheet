@@ -1,0 +1,13 @@
+# Docker remove everything unused
+docker system prune
+# Delete all containers
+docker container prune # --filter "until=12h"
+# Delete all images
+docker image prune -a # --filter "until=12h"
+# Delete all volumes
+docker volume prune
+# Delete all networks
+docker network prune
+# Update Docker Image
+docker-compose down
+docker-compose pull & docker-compose up -d
