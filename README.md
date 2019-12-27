@@ -22,6 +22,14 @@ up a lot of space and are not needed anymore.
 
 You can find more details in my blog post [Listing information for all your named/unnamed data volumes](https://www.guidodiepen.nl/2017/04/listing-information-for-all-your-named-unnamed-data-volumes/)
 
-## clean_docker_container.sh
+## docker_kill_all.sh
 
-With this script I can easily stop a Container and remove all unused Images.
+With this script I can easily stop a Container and remove all Docker data
+(Containers, Images, Networks and Volumes). This is a very precarious Script, 
+therefore there is a prompt to verify you know the risk and you really
+want to delete all data. 
+
+## docker_show.sh
+
+This Script shows you all running Containers, Images, Networks and Volumes. 
+This shows me in one Command all data that is currently (running) on the System.
